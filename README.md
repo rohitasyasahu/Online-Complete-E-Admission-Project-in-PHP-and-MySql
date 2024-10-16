@@ -1,6 +1,5 @@
 # Online-Complete-E-Admission-Project-in-PHP-and-MySQL
 
 Admin Login
-=============
-Username : Deepak
+Username : Deepak <br>
 Password : Deepak@123
