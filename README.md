@@ -1,1 +1,1 @@
-# online-Complete-e-admission-project-in-PHP-and-MySQL
+# Online-Complete-E-Admission-Project-in-PHP-and-MySQL
