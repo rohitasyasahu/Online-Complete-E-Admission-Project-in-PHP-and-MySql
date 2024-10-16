@@ -1,0 +1,299 @@
+.sidebar h2 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+.container {
+            display: ;
+            height: 100%;
+            width: 100%;
+        }
+
+.sidebar {
+            width: 250px;
+            background-color: #2c3e50;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            padding-top: 20px;
+            position: fixed;
+            height: 100%;
+        }
+
+.sidebar a {
+            text-decoration: none;
+            color: white;
+            padding: 15px 20px;
+            display: block;
+        }
+
+.sidebar a:hover {
+            background-color: #34495e;
+        }
+
+.main-content {
+            margin-left: 200px; /* Ensure content starts after sidebar */
+            padding: 2px;
+            width:100% ;
+            background-color: #ecf0f1;
+        }
+
+.header {
+            background-color: #2980b9;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 24px;
+        }
+		
+.login-container {
+            width: 300px;
+            margin: 100px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .login-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .login-container form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .login-container input {
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .login-container button {
+            padding: 10px;
+            background-color: #2c3e50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .login-container button:hover {
+            background-color: #34495e;
+        }
+		
+
+
+/* Headings */
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Button Styles */
+button {
+    padding: 10px 15px;
+    background-color: #5cb85c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+/* Table Styles */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f9f9f9;
+}
+
+td a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+/* Links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* General styles for the select element */
+select {
+    width: 40%; /* Full width */
+    padding: 10px; /* Padding for comfort */
+    margin: 10px 0; /* Space around the select box */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #f9f9f9; /* Background color */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+/* Styles for select when focused */
+select:focus {
+    border-color: #4A90E2; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+/* Styles for options in the select */
+option {
+    padding: 40px; /* Padding inside the option */
+    font-size: 16px; /* Font size for options */
+}
+
+/* Styles for the select element when disabled */
+select:disabled {
+    background-color: #e9ecef; /* Background color for disabled select */
+    cursor: not-allowed; /* Not-allowed cursor */
+}
+
+/* Additional styles to make it visually appealing */
+select:hover {
+    border-color: #007bff; /* Change border color on hover */
+}
+
+/* Style for number input */
+input[type="number"] {
+    width: 77%; /* Make the input take full width of its container */
+    padding: 10px; /* Add some padding inside the input */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 4px; /* Slightly rounded corners */
+    font-size: 16px; /* Font size */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+/* Change border color on focus */
+input[type="number"]:focus {
+    border-color: #007bff; /* Blue border when focused */
+    outline: none; /* Remove default outline */
+}
+
+/* Optional: Style for invalid input */
+input[type="number"]:invalid {
+    border-color: red; /* Red border for invalid inputs */
+}
+
+/* Optional: Placeholder styling */
+input[type="number"]::placeholder {
+    color: #aaa; /* Light grey placeholder color */
+    font-style: italic; /* Italicize placeholder text */
+}
+
+/* Optional: Add margin for spacing */
+input[type="number"] {
+    margin-bottom: 15px; /* Space below the input */
+}
+
+
+
+
+/* General form styles */
+form {
+     /* Set a maximum width for the form */
+     /* Center the form on the page */
+     /* Add padding inside the form */
+     /* Light border for the form */
+     /* Rounded corners */
+    background-color: ; /* Light background color */
+}
+
+/* Label styles */
+label {
+    display: block; /* Make labels block-level to occupy full width */
+    margin-bottom: 5px; /* Space between label and input */
+    font-weight: bold; /* Bold text for labels */
+}
+
+/* Input field styles */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 80%; /* Make the input take full width */
+    padding: 15px; /* Inner spacing for input */
+    margin-bottom: 15px; /* Space below each input */
+    border: 1px solid #ccc; /* Light border for input */
+    border-radius: 5px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding and border in element's total width */
+    font-size: 16px; /* Font size for input */
+}
+
+
+
+/* Button styles */
+button {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Text color for button */
+    padding: 10px 20px; /* Padding for button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    font-size: 16px; /* Font size for button */
+}
+
+/* Button hover styles */
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+

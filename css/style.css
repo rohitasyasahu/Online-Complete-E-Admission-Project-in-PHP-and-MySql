@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #2980b9;
+    color: white;
+    display: flex; /* Set to flex to enable flex layout */
+    flex-direction: column; /* Arrange children in a column */
+    padding-top: 20px;
+    position: fixed;
+    height: 100%;
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.sidebar h2 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+.sidebar a {
+            text-decoration: none;
+            color: white;
+            padding: 15px 20px;
+            display: block;
+        }
+
+.sidebar a:hover {
+            background-color: #34495e;
+        }
+
+.main-content {
+            margin-left: 100px; /* Ensure content starts after sidebar */
+            padding: 2px;
+            width:91% ;
+            background-color: #ecf0f1;
+        }
+
+.header {
+            background-color: #2980b9;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 24px;
+        }
+/* Headings */
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 20%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* General form styles */
+form {
+    background-color: ; /* Light background color */
+}
+
+/* Label styles */
+label {
+    display: block; /* Make labels block-level to occupy full width */
+    margin-bottom: 5px; /* Space between label and input */
+    font-weight: bold; /* Bold text for labels */
+}
+
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse:collapse ;
+            margin-bottom: 10px;
+        }
+        th, td {
+            padding: 10px;
+            border: 2px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: gray;
+        }
+        input[type="text"], input[type="email"], input[type="password"], 
+        input[type="number"], select, textarea {
+            width: calc(60% - 22px);
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            display: block;
+            width: 20%;
+            padding: 10px;
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: violet;
+        }

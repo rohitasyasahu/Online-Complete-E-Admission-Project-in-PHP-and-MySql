@@ -1,0 +1,154 @@
+.top-bar {
+    background-color: #f4f4f4;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.student-list {
+    margin-top: 10px;
+}
+
+.student-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.student-list li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.student-list a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.student-list a:hover {
+    text-decoration: underline;
+}
+
+
+.main-content {
+    margin-left: 30%; /* Make space for sidebar */
+    padding: 20px;
+    background-color: #fff;
+    min-height: 100vh; /* Ensure full height content area */
+    padding-bottom: 60px; /* Leave space for footer */
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    
+    .main-content {
+        margin-left: 0;
+    }
+    
+    .sidebar a {
+        text-align: center;
+        padding: 15px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .sidebar h2 {
+        text-align: center;
+    }
+
+    .sidebar a {
+        font-size: 16px;
+    }
+
+    .main-content {
+        padding: 15px;
+    }
+
+    table, th, td {
+        font-size: 14px;
+    }
+}
+
+        .print-btn {
+            background-color: #4CAF50; /* Green background */
+            border: none;              /* No border */
+            color: white;              /* White text */
+            padding: 10px 15px;       /* Padding */
+            text-align: center;        /* Centered text */
+            text-decoration: none;      /* No underline */
+            display: inline-block;     /* Inline-block for positioning */
+            font-size: 16px;          /* Font size */
+            margin: 10px 2px;         /* Margins around the button */
+            cursor: pointer;           /* Pointer cursor on hover */
+            border-radius: 5px;       /* Rounded corners */
+            transition: background-color 0.3s; /* Transition for hover effect */
+        }
+
+        /* Add a hover effect */
+        .print-btn:hover {
+            background-color: red; /* Darker green on hover */
+        }
+header {
+            background-color: #4CAF50; /* Green background */
+            color: white; /* White text */
+            padding: 20px; /* Spacing */
+            text-align: center; /* Centered text */
+            font-family: Arial, sans-serif; /* Font */
+        }
+        nav {
+            margin-top: 10px; /* Space above the nav */
+        }
+        nav a {
+            color: white; /* White text */
+            padding: 10px 15px; /* Spacing around links */
+            text-decoration: none; /* Remove underline */
+            margin: 0 5px; /* Margin between links */
+            border-radius: 5px; /* Rounded corners */
+            transition: background-color 0.3s; /* Smooth background change */
+        }
+        nav a:hover {
+            background-color: #45a049; /* Darker green on hover */
+        }
